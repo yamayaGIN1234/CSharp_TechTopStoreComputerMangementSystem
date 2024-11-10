@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CAB0DE6F-29C1-4510-A684-E49491894AB4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DoAnTechTopStore</RootNamespace>
+    <AssemblyName>DoAnTechTopStore</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logoTechTopStore.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Computer">
+      <HintPath>..\..\..\..\Downloads\Computer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAL\Computer.Brand.cs" />
+    <Compile Include="DAL\Computer.Category.cs" />
+    <Compile Include="BLL\Computer.Computer.cs" />
+    <Compile Include="DAL\Computer.Order.cs" />
+    <Compile Include="DAL\Computer.Product.cs" />
+    <Compile Include="DAL\Computer.User.cs" />
+    <Compile Include="DataSet.Designer.cs" />
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="UI\FormForgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FormForgotPassword.Designer.cs">
+      <DependentUpon>FormForgotPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\FormReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FormReport.Designer.cs">
+      <DependentUpon>FormReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControlBrand.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\UserControlBrand.Designer.cs">
+      <DependentUpon>UserControlBrand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControlCategory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\UserControlCategory.Designer.cs">
+      <DependentUpon>UserControlCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControlDashBoard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\UserControlDashBoard.Designer.cs">
+      <DependentUpon>UserControlDashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControlOrder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\UserControlOrder.Designer.cs">
+      <DependentUpon>UserControlOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControlProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\UserControlProduct.Designer.cs">
+      <DependentUpon>UserControlProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControlReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\UserControlReport.Designer.cs">
+      <DependentUpon>UserControlReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControlUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\UserControlUser.Designer.cs">
+      <DependentUpon>UserControlUser.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UI\FormForgotPassword.resx">
+      <DependentUpon>FormForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UI\FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FormReport.resx">
+      <DependentUpon>FormReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Report.rdlc" />
+    <EmbeddedResource Include="UI\UserControlBrand.resx">
+      <DependentUpon>UserControlBrand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserControlCategory.resx">
+      <DependentUpon>UserControlCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserControlDashBoard.resx">
+      <DependentUpon>UserControlDashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserControlOrder.resx">
+      <DependentUpon>UserControlOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserControlProduct.resx">
+      <DependentUpon>UserControlProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserControlReport.resx">
+      <DependentUpon>UserControlReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserControlUser.resx">
+      <DependentUpon>UserControlUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DataSet.xsc">
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet.xss">
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logoTechTopStore.ico" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\2849789_folder_multimedia_document_icon1.png" />
+    <None Include="Resources\2849789_folder_multimedia_document_icon.png" />
+    <None Include="Resources\211817_search_strong_icon.png" />
+    <None Include="Resources\10219055_income_profit_revenue_finance_investment_icon.png" />
+    <None Include="Resources\6791549_box_new product_package_product_products_icon.png" />
+    <None Include="Resources\7952173_receipt_paper_transation_check_sale_icon.png" />
+    <None Include="Resources\326700_cart_shopping_icon.png" />
+    <None Include="Resources\9044850_order_details_icon1.png" />
+    <None Include="Resources\6843036_courier_deliver_delivery_package_product_icon1.png" />
+    <None Include="Resources\9104334_sign out_logout_exit_out_icon.png" />
+    <None Include="Resources\1564534_customer_man_user_account_profile_icon.png" />
+    <None Include="Resources\2124299_app_document_report_essential_icon.png" />
+    <None Include="Resources\9044850_order_details_icon.png" />
+    <None Include="Resources\3615744_barcode_delivery_order_package_parcel_icon.png" />
+    <None Include="Resources\6843036_courier_deliver_delivery_package_product_icon.png" />
+    <None Include="Resources\9676162_category_icon.png" />
+    <None Include="Resources\4308015_advertising_branding_corporate_identity_icon.png" />
+    <None Include="Resources\8725744_dashboard_icon1.png" />
+    <None Include="Resources\8725744_dashboard_icon %281%291.png" />
+    <None Include="Resources\8725744_dashboard_icon %281%29.png" />
+    <None Include="Resources\8725744_dashboard_icon.png" />
+    <None Include="Resources\3668859_computer_device_electronics_icon1.png" />
+    <None Include="Resources\3668859_computer_device_electronics_icon.png" />
+    <None Include="Resources\5173021_antivirus_internet_lock_locked_protect_icon.png" />
+    <None Include="Resources\211661_eye_icon.png" />
+    <None Include="Resources\9055372_bxs_hide_icon.png" />
+    <None Include="Resources\299053_computer_icon.png" />
+    <None Include="Resources\10132036_multiply_line_icon.png" />
+    <None Include="Resources\logoTechTopStore.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
