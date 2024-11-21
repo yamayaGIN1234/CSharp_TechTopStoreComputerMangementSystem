@@ -3,20 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\minec\\source\\repos\\DoAnTechTopStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CAB0DE6F-29C1-4510-A684-E49491894AB4}|DoAnTechTopStore\\DoAnTechTopStore.csproj|c:\\users\\minec\\source\\repos\\doantechtopstore\\doantechtopstore\\ui\\usercontroldashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CAB0DE6F-29C1-4510-A684-E49491894AB4}|DoAnTechTopStore\\DoAnTechTopStore.csproj|solutionrelative:doantechtopstore\\ui\\usercontroldashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAB0DE6F-29C1-4510-A684-E49491894AB4}|DoAnTechTopStore\\DoAnTechTopStore.csproj|C:\\Users\\minec\\source\\repos\\DoAnTechTopStore\\doantechtopstore\\ui\\usercontroldashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAB0DE6F-29C1-4510-A684-E49491894AB4}|DoAnTechTopStore\\DoAnTechTopStore.csproj|solutionrelative:doantechtopstore\\ui\\usercontroldashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|DoAnTechTopStore||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CAB0DE6F-29C1-4510-A684-E49491894AB4}|DoAnTechTopStore\\DoAnTechTopStore.csproj|C:\\Users\\minec\\source\\repos\\DoAnTechTopStore\\doantechtopstore\\ui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CAB0DE6F-29C1-4510-A684-E49491894AB4}|DoAnTechTopStore\\DoAnTechTopStore.csproj|solutionrelative:doantechtopstore\\ui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAB0DE6F-29C1-4510-A684-E49491894AB4}|DoAnTechTopStore\\DoAnTechTopStore.csproj|C:\\Users\\minec\\source\\repos\\DoAnTechTopStore\\doantechtopstore\\ui\\formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CAB0DE6F-29C1-4510-A684-E49491894AB4}|DoAnTechTopStore\\DoAnTechTopStore.csproj|c:\\users\\minec\\source\\repos\\doantechtopstore\\doantechtopstore\\ui\\formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAB0DE6F-29C1-4510-A684-E49491894AB4}|DoAnTechTopStore\\DoAnTechTopStore.csproj|solutionrelative:doantechtopstore\\ui\\formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB0DE6F-29C1-4510-A684-E49491894AB4}|DoAnTechTopStore\\DoAnTechTopStore.csproj|C:\\Users\\minec\\source\\repos\\DoAnTechTopStore\\doantechtopstore\\ui\\usercontroldashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CAB0DE6F-29C1-4510-A684-E49491894AB4}|DoAnTechTopStore\\DoAnTechTopStore.csproj|solutionrelative:doantechtopstore\\ui\\usercontroldashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB0DE6F-29C1-4510-A684-E49491894AB4}|DoAnTechTopStore\\DoAnTechTopStore.csproj|c:\\users\\minec\\source\\repos\\doantechtopstore\\doantechtopstore\\ui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB0DE6F-29C1-4510-A684-E49491894AB4}|DoAnTechTopStore\\DoAnTechTopStore.csproj|solutionrelative:doantechtopstore\\ui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB0DE6F-29C1-4510-A684-E49491894AB4}|DoAnTechTopStore\\DoAnTechTopStore.csproj|c:\\users\\minec\\source\\repos\\doantechtopstore\\doantechtopstore\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,21 +35,37 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserControlDashBoard.cs",
-              "DocumentMoniker": "C:\\Users\\minec\\source\\repos\\DoAnTechTopStore\\DoAnTechTopStore\\UI\\UserControlDashBoard.cs",
-              "RelativeDocumentMoniker": "DoAnTechTopStore\\UI\\UserControlDashBoard.cs",
-              "ToolTip": "C:\\Users\\minec\\source\\repos\\DoAnTechTopStore\\DoAnTechTopStore\\UI\\UserControlDashBoard.cs",
-              "RelativeToolTip": "DoAnTechTopStore\\UI\\UserControlDashBoard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T13:32:35.968Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DoAnTechTopStore",
+              "DocumentMoniker": "C:\\Users\\minec\\source\\repos\\DoAnTechTopStore\\DoAnTechTopStore\\DoAnTechTopStore.csproj",
+              "RelativeDocumentMoniker": "DoAnTechTopStore\\DoAnTechTopStore.csproj",
+              "ToolTip": "C:\\Users\\minec\\source\\repos\\DoAnTechTopStore\\DoAnTechTopStore\\DoAnTechTopStore.csproj",
+              "RelativeToolTip": "DoAnTechTopStore\\DoAnTechTopStore.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-21T09:44:42.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormMain.cs",
+              "DocumentMoniker": "C:\\Users\\minec\\source\\repos\\DoAnTechTopStore\\DoAnTechTopStore\\UI\\FormMain.cs",
+              "RelativeDocumentMoniker": "DoAnTechTopStore\\UI\\FormMain.cs",
+              "ToolTip": "C:\\Users\\minec\\source\\repos\\DoAnTechTopStore\\DoAnTechTopStore\\UI\\FormMain.cs",
+              "RelativeToolTip": "DoAnTechTopStore\\UI\\FormMain.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA9wC0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:06:38.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UserControlDashBoard.cs [Design]",
               "DocumentMoniker": "C:\\Users\\minec\\source\\repos\\DoAnTechTopStore\\DoAnTechTopStore\\UI\\UserControlDashBoard.cs",
               "RelativeDocumentMoniker": "DoAnTechTopStore\\UI\\UserControlDashBoard.cs",
@@ -55,26 +77,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "FormMain.Designer.cs",
               "DocumentMoniker": "C:\\Users\\minec\\source\\repos\\DoAnTechTopStore\\DoAnTechTopStore\\UI\\FormMain.Designer.cs",
               "RelativeDocumentMoniker": "DoAnTechTopStore\\UI\\FormMain.Designer.cs",
               "ToolTip": "C:\\Users\\minec\\source\\repos\\DoAnTechTopStore\\DoAnTechTopStore\\UI\\FormMain.Designer.cs",
               "RelativeToolTip": "DoAnTechTopStore\\UI\\FormMain.Designer.cs",
-              "ViewState": "AgIAADQBAAAAAAAAAAAowEMBAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAI4BAAAAAAAAAAAMwJQBAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T13:12:24.879Z"
+              "WhenOpened": "2024-11-10T13:12:24.879Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "FormMain.cs [Design]",
               "DocumentMoniker": "C:\\Users\\minec\\source\\repos\\DoAnTechTopStore\\DoAnTechTopStore\\UI\\FormMain.cs",
               "RelativeDocumentMoniker": "DoAnTechTopStore\\UI\\FormMain.cs",
               "ToolTip": "C:\\Users\\minec\\source\\repos\\DoAnTechTopStore\\DoAnTechTopStore\\UI\\FormMain.cs [Design]",
               "RelativeToolTip": "DoAnTechTopStore\\UI\\FormMain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T13:12:06.729Z"
+              "WhenOpened": "2024-11-10T13:12:06.729Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

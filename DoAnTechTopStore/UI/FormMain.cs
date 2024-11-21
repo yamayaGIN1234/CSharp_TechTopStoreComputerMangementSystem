@@ -39,6 +39,11 @@ namespace DoAnTechTopStore.UI
             userControlBrand1.Visible = false;
             userControlCategory1.Visible = false;
             userControlProduct1.Visible = false;
+            userControlOrder1.Visible = false;
+            userControlReport1.Visible = false;
+            userControlUser1.Visible = false;
+            userControlDashBoard1.Count();
+            userControlDashBoard1.Visible = true;
         }
 
         private void btnBrand_Click(object sender, EventArgs e)

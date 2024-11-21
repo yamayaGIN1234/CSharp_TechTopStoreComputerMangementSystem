@@ -48,6 +48,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pnlCenter = new System.Windows.Forms.Panel();
+            this.userControlUser1 = new DoAnTechTopStore.UI.UserControlUser();
+            this.userControlReport1 = new DoAnTechTopStore.UI.UserControlReport();
+            this.userControlOrder1 = new DoAnTechTopStore.UI.UserControlOrder();
             this.userControlProduct1 = new DoAnTechTopStore.UI.UserControlProduct();
             this.userControlCategory1 = new DoAnTechTopStore.UI.UserControlCategory();
             this.userControlBrand1 = new DoAnTechTopStore.UI.UserControlBrand();
@@ -313,6 +316,9 @@
             // 
             // pnlCenter
             // 
+            this.pnlCenter.Controls.Add(this.userControlUser1);
+            this.pnlCenter.Controls.Add(this.userControlReport1);
+            this.pnlCenter.Controls.Add(this.userControlOrder1);
             this.pnlCenter.Controls.Add(this.userControlProduct1);
             this.pnlCenter.Controls.Add(this.userControlCategory1);
             this.pnlCenter.Controls.Add(this.userControlBrand1);
@@ -322,6 +328,36 @@
             this.pnlCenter.Name = "pnlCenter";
             this.pnlCenter.Size = new System.Drawing.Size(731, 425);
             this.pnlCenter.TabIndex = 0;
+            // 
+            // userControlUser1
+            // 
+            this.userControlUser1.BackColor = System.Drawing.Color.White;
+            this.userControlUser1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userControlUser1.Location = new System.Drawing.Point(0, 0);
+            this.userControlUser1.Name = "userControlUser1";
+            this.userControlUser1.Size = new System.Drawing.Size(731, 425);
+            this.userControlUser1.TabIndex = 0;
+            this.userControlUser1.Visible = false;
+            // 
+            // userControlReport1
+            // 
+            this.userControlReport1.BackColor = System.Drawing.Color.White;
+            this.userControlReport1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userControlReport1.Location = new System.Drawing.Point(0, 0);
+            this.userControlReport1.Name = "userControlReport1";
+            this.userControlReport1.Size = new System.Drawing.Size(731, 425);
+            this.userControlReport1.TabIndex = 0;
+            this.userControlReport1.Visible = false;
+            // 
+            // userControlOrder1
+            // 
+            this.userControlOrder1.BackColor = System.Drawing.Color.White;
+            this.userControlOrder1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userControlOrder1.Location = new System.Drawing.Point(0, 0);
+            this.userControlOrder1.Name = "userControlOrder1";
+            this.userControlOrder1.Size = new System.Drawing.Size(731, 425);
+            this.userControlOrder1.TabIndex = 0;
+            this.userControlOrder1.Visible = false;
             // 
             // userControlProduct1
             // 

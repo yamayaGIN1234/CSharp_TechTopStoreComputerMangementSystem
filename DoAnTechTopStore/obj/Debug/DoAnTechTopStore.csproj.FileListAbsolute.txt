@@ -20,7 +20,6 @@ C:\Users\minec\source\repos\DoAnTechTopStore\DoAnTechTopStore\bin\Debug\SqlServe
 C:\Users\minec\source\repos\DoAnTechTopStore\DoAnTechTopStore\bin\Debug\DoAnTechTopStore.exe.config
 C:\Users\minec\source\repos\DoAnTechTopStore\DoAnTechTopStore\bin\Debug\DoAnTechTopStore.exe
 C:\Users\minec\source\repos\DoAnTechTopStore\DoAnTechTopStore\bin\Debug\DoAnTechTopStore.pdb
-C:\Users\minec\source\repos\DoAnTechTopStore\DoAnTechTopStore\bin\Debug\Computer.dll
 C:\Users\minec\source\repos\DoAnTechTopStore\DoAnTechTopStore\bin\Debug\Microsoft.ReportViewer.Common.dll
 C:\Users\minec\source\repos\DoAnTechTopStore\DoAnTechTopStore\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
 C:\Users\minec\source\repos\DoAnTechTopStore\DoAnTechTopStore\bin\Debug\Microsoft.ReportViewer.Design.dll
